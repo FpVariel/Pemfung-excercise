@@ -1,0 +1,1 @@
+fib = 1 : 1 : map (addZip) (zip fib (tail fib)) where addZip (a,b) = a+b
